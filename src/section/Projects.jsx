@@ -9,19 +9,19 @@ import { Suspense } from "react";
 
 const projectCount = myProjects.length;
 const positions = [
-    [0.1, -0.9, 1.3],   // Project1
-    [-0.7, -1, -0.5], // Project2
-    [-0.1, -1.5, 1.2],  // Project3
-    [-1, -1.3, 0.1], // Project4
-    [-0.8, -0.5, 0.8],  // Project5
+    [0.1, -0.9, 1.3],
+    [-0.7, -1, -0.5],
+    [-0.1, -1.5, 1.2],
+    [-1, -1.3, 0.1],
+    [-0.8, -0.5, 0.8],
 ];
   
 const rotations = [
-    [-0.2, 0.6, 0],    // Project1
-    [-0.1, -1.2, 0],   // Project2
-    [0.3, 0.8, 0],     // Project3
-    [0.4, -0.8, 0],    // Project4
-    [0, -0.4, 0],      // Project5
+    [-0.2, 0.6, 0],
+    [-0.1, -1.2, 0],
+    [0.3, 0.8, 0],
+    [0.4, -0.8, 0],
+    [0, -0.4, 0],
 ];
 
 const Projects = ({}) =>{

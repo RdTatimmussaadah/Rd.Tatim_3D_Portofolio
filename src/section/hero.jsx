@@ -1,7 +1,7 @@
 import { PerspectiveCamera } from "@react-three/drei";
 import Room from "../components/Room";
 import { Suspense } from "react";
-import CanvasLoader from "../components/canvasLoader";
+import CanvasLoader from "../components/CanvasLoader";
 import {Canvas} from "@react-three/fiber";
 import { useMediaQuery } from "react-responsive";
 import Target from "../components/Target.jsx";

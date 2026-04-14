@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import { myProjects } from "../constant/index.js";
 import { Canvas } from "@react-three/fiber";
 import { Center} from "@react-three/drei";
-import CanvasLoader from "../components/canvasLoader";
+import CanvasLoader from "../components/CanvasLoader";
 import Computer from "../components/Computer.jsx";
 import { Suspense } from "react";
 
